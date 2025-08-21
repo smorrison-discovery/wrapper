@@ -1,0 +1,35 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  
+  <!-- Local repository location (optional) -->
+  <localRepository>../../repo</localRepository>
+
+  <!-- Interactive mode (true by default) -->
+  <!-- <interactiveMode>true</interactiveMode> -->
+
+  <!-- Offline mode (false by default) -->
+  <!-- <offline>false</offline> -->
+
+  <profiles>
+    <!-- You can define custom profiles here -->
+  </profiles>
+
+  <activeProfiles>
+    <!-- List of profiles to activate by default -->
+  </activeProfiles>
+  <mirrors>
+    <mirror>
+        <id>central</id>
+        <mirrorOf>central</mirrorOf>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </mirror>
+  </mirrors>
+  <proxies>
+    <!-- Define proxy settings if behind a firewall -->
+  </proxies>
+  <servers>
+    <!-- Define credentials for repositories -->
+  </servers>
+</settings>
