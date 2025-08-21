@@ -11,3 +11,6 @@ The DualBuild Java Toolkit is a modular Java application designed to demonstrate
 Comparing Maven and Gradle performance and features.
 Training or onboarding developers on both build systems.
 Supporting hybrid teams or CI/CD pipelines with flexible build options.
+
+## Example
+mvn archetype:generate -DgroupId=com.example -DartifactId=myproject -DoutputDirectory=\path\to\location -DinteractiveMode=false 
